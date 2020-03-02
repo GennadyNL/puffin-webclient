@@ -1,0 +1,109 @@
+html,body
+{
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: #a3b3c3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(4px + 2vmin);
+  min-height: 100vh;
+  vertical-align: top;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Button {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-size: 14px;
+  margin: 0px 10px;
+  padding: 10px 20px;
+}
+
+.Button-Left {
+  float: left;
+}
+
+.Button-Disabled {
+  background-color: rgb(185, 185, 185);
+  color: rgb(134, 130, 130);
+}
+
+.UploadButton {
+  display: inline-block;
+}
+
+.SelectButtonHide {
+  display: none;
+}
+
+.FileContent {
+  border: 0px dotted #999999;
+  display: block;
+  font-size: 14px;
+  max-width : 90%;
+  padding: 10px 10px;
+  text-align: left;
+  white-space: pre;
+}
+
+.FileDetails {
+  font-size: 14px;
+  text-align: right;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 45px;
+  vertical-align: text-top;
+  white-space: pre-line;
+}
+
+.configuredURL {
+  font-size: 14px;
+  text-align: left;
+  vertical-align: text-top;
+  white-space: pre-line;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 45px;
+}
+
+.responseCode {
+  font-size: 14px;
+  text-align: right;
+  vertical-align: text-top;
+}
+
+.divTable {
+  display: table;
+	max-width: 100%;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableCell {
+	border: 0px dotted #999999;
+  display: table-cell;
+  padding: 5px 0px;
+  vertical-align: bottom;
+  width: 500px;
+}
